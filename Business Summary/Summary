@@ -1,0 +1,16 @@
+We set out to find out what influences the amount of wins a driver has during the season based on data from SCORE sports data.
+
+We hypothesized that leading laps would be a big factor in winning.
+
+The first thing that was tested was what factors have the highest correlation to Win.
+We found the correlation of the different variables to Win using RStudio then made a bar chart to help visualize our findings.
+Clearly, laps led, percent laps lead and num fastest laps were the most correlated to Win, meaning that the driver posting the fastest lap of race most often during a season and leading the most laps 
+during the season is more likely to have multiple wins during the season.
+
+The next thing tested was the relationship between average starting position and wins per season. We made a scatter plot with the avg start as the x and wins as y and found a negative linear 
+relationship between the two. That means the drivers starting closer to the front (smaller x number) have more wins than those starting towards the back.
+
+The final thing tested was laps led vs average finish. Based on the scatter plot, laps led as the x and avg finish as the y produces a negative linear relationship, 
+meaning leading more laps probably leads to more wins.
+
+In conclusion, the drivers leading the most laps during a season, starting closer to the front and posting the fastest laps of the race will have more wins than the drivers that don't.
